@@ -1,0 +1,80 @@
+body {
+  display: block;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+header {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family: Lato;
+}
+
+#articale-paragraph {
+  display: block;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+#articale-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  width: 100%;
+}
+
+input {
+  display: block;
+  justify-content: left;
+  margin-bottom: 1%;
+}
+
+#text-icon {
+  display: inline;
+  width: 2%;
+  margin-left: 3%;
+}
+
+.Text-div {
+  margin-bottom: 1%;
+}
+
+h5 {
+  display: inline;
+}
+
+#image-icon {
+  display: inline;
+  width: 2%;
+  margin-left: 3%;
+}
+
+#separator-icon {
+  display: inline;
+  width: 2%;
+  margin-left: 3%;
+}
+
+#edit-title {
+  display: none;
+}
+
+#edit-image {
+  display: none;
+}
+
+#edit-paragraph {
+  display: none;
+}
+
+#edition-section {
+  display: none;
+}
+
+#edit {
+  display: none;
+}

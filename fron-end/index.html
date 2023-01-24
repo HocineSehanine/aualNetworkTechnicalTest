@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <script src="./helpers/getArticale.js" defer></script>
+    <script src="./helpers/updateArticale.js" defer></script>
+    <script src="script.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header id="cabecalho">
+      <h1 id="titulo"></h1>
+    </header>
+
+    <main>
+      <article class="articale-content">
+        <p id="articale-paragraph"></p>
+        <img id="articale-img" alt="articale picture" />
+      </article>
+      <p id="edition-section-btn">Clique para adecionar um novo elemento</p>
+      <section id="edition-section">
+        <div class="Text-div">
+        Text
+          <br />
+          <img id="text-icon" src="https://atual.network/a54c57df2f849fb08c90f9214902aa5a/icons/text.svg"/>
+          <h5 id="paragraph-btn">Paragráfo</h5>
+        </div>
+        <div class="Text-div">
+          Basic
+            <br />
+            <div>
+              <img id="image-icon" src="https://atual.network/a54c57df2f849fb08c90f9214902aa5a/icons/image.svg"/>
+              <h5 id="imagem-btn">Imagem</h5>
+            </div>
+            <div>
+              <img id="separator-icon" src="https://atual.network/a54c57df2f849fb08c90f9214902aa5a/icons/folder.svg"/>
+              <h5 id="separator-btn">Separador</h5>
+            </div>
+          </div>
+      </section>
+      <form>
+        <input id="edit-image" tybe="text"/>
+        <textarea id="edit-paragraph" tybe="textarea"></textarea>
+        <button id="edit">editar</button>
+      </form>
+    </main>
+  </body>
+</html>
